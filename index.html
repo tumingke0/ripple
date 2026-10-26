@@ -1,16 +1,19 @@
 <!doctype html>
 <!--
   涟漪官网（单页静态，无构建）。
-  发布前把下面所有 tumingke0/ripple 换成真实的 GitHub 用户名 / 仓库名（全文搜索 tumingke0/ripple）。
-  部署：GitHub Pages（tumingke0.github.io/ripple，发布目录 site/），或 Cloudflare Pages（输出目录 site）。
+  官方地址：https://ripplefocus.github.io/
+  发布仓库：https://github.com/ripplefocus/ripplefocus.github.io
 -->
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>涟漪 · 一圈一圈，慢慢静下来</title>
-<meta name="description" content="涟漪：安卓上的自控 App。到点让手机安静下来，给 App 设每日时长，防止一时冲动卸载。规则只存在你的手机上。">
+<meta name="description" content="涟漪：安卓上的自控与防沉迷 App。到点让手机安静下来，给刷不停的 App 定个每日时长，防止一时冲动卸载；自己管手或家长给孩子管手机都能用。规则只存在你的手机上。">
 <meta name="theme-color" content="#F9FAFD">
+<meta http-equiv="refresh" content="0; url=https://ripplefocus.github.io/">
+<link rel="canonical" href="https://ripplefocus.github.io/">
+<script>location.replace("https://ripplefocus.github.io/" + location.search + location.hash);</script>
 <link rel="icon" href="logo.png">
 <style>
 :root{
@@ -92,9 +95,9 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
   <div class="ripple"><img src="logo.png" alt="涟漪图标"></div>
   <h1>涟漪</h1>
   <p class="slogan">一圈一圈，慢慢静下来</p>
-  <p class="lead">安卓上的自控小工具。到点让手机安静下来，给刷不停的 App 定个时长；想放松规则，先等一会儿。</p>
+  <p class="lead">安卓上的自控小工具。到点让手机安静下来，给刷不停的 App 定个时长；想放松规则，先等一会儿。自己戒短视频，或者家长给孩子管手机都能用。</p>
   <div class="cta">
-    <a class="btn" href="https://github.com/tumingke0/ripple/releases/download/v0.1.0/ripple-v0.1.0.apk">
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
       下载安卓版 v0.1.0
     </a>
@@ -111,11 +114,11 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
     <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 13l3-3M10 2h4"/></svg></div>
       <div><h3>每日时长</h3><p>给短视频、游戏这类 App 设每天最多用多久，用完当天就打不开，0 点重新计算。</p></div></div>
     <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div>
-      <div><h3>防止一时冲动卸载</h3><p>打开后，想卸载涟漪得先等一会儿，或者请亲友输解锁码。冲动过去了，规则还在。</p></div></div>
+      <div><h3>防止一时冲动卸载</h3><p>打开后，想卸载涟漪得先等一会儿，或者请亲友/家长输解锁码。冲动过去了，规则还在。</p></div></div>
     <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="2.2"/><path d="M11 18h2"/></svg></div>
       <div><h3>系统必需的不受影响</h3><p>电话、短信、闹钟、日历、相机、输入法、系统钱包这类系统功能一直能用，不会被拦。</p></div></div>
   </div>
-  <div class="note">放松规则（加时长、提前结束、关保护）要先等一会儿，默认 15 分钟；收紧规则立刻生效。很多冲动，一会儿就过去了。</div>
+  <div class="note">放松规则（加时长、提前结束、关保护）要先等一会儿，默认 15 分钟（可调至 2 小时，短视频类高风险 App 自动翻倍），或输入亲友/家长解锁码；收紧规则立刻生效。</div>
 </section>
 
 <section id="install">
@@ -142,6 +145,8 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
   <h2>常见问题</h2>
   <details><summary>为什么不在应用商店里？</summary>
     <p>涟漪要用无障碍和设备管理器来拦住 App、防止一时冲动卸载，很多应用商店不收这类工具。直接从这里下载，更新也更快。每个版本都用同一个签名，能直接覆盖升级，规则不会丢。</p></details>
+  <details><summary>适合家长用来管孩子看手机吗？</summary>
+    <p>适合。家长给孩子设好每天短视频/游戏的时长和晚上睡觉时段后，可以把等待时间调到 2 小时、设好只有家长知道的「亲友解锁码」，并开启防卸载（及可选的「高级保护」）。之后孩子自己改系统时间、从后台划掉涟漪、进设置清数据或重启手机都绕不过去，同时又不影响正常接打电话和早上闹钟。</p></details>
   <details><summary>我的数据会被上传吗？</summary>
     <p>不会。涟漪没有账号、没有统计、没有广告。你设的规则、每个 App 用了多久、拦下的记录，都只存在你这台手机上。</p>
     <p>网络只用在两处：可选的「高级保护」要通过无线调试连接手机自己；检查更新时会读取公开的版本信息。都不会上传你的数据。</p></details>
@@ -150,7 +155,7 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
   <details><summary>真想卸载怎么办？</summary>
     <ul>
       <li>没开「防止一时冲动卸载」：像普通 App 一样直接卸载。</li>
-      <li>开着的话：打开涟漪 › 设置 › 防卸载 › 我想卸载涟漪。先等一会儿（默认 15 分钟），或者请亲友输入解锁码，涟漪会自动解开保护，然后弹出系统的卸载确认。</li>
+      <li>开着的话：打开涟漪 › 设置 › 防卸载 › 我想卸载涟漪。先等一会儿（默认 15 分钟），或者请亲友/家长输入解锁码，涟漪会自动解开保护，然后弹出系统的卸载确认。</li>
     </ul>
     <p>不会出现必须恢复出厂设置的情况。</p></details>
   <details><summary>更新要先卸载旧版吗？</summary>
@@ -159,7 +164,7 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
 </div>
 <footer>
   涟漪 · 一圈一圈，慢慢静下来<br>
-  <a href="https://github.com/tumingke0/ripple/releases">所有版本</a>
+  <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">所有版本</a>
 </footer>
 </body>
 </html>
