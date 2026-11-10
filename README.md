@@ -6,6 +6,11 @@
 
 - **官方网站**：<https://ripplefocus.github.io/>
 - **下载安卓最新版**：[GitHub Release 最新版](https://github.com/ripplefocus/ripplefocus.github.io/releases/latest)（国内免梯直连：[ripplefocus.github.io/dl/ripple-latest.apk](https://ripplefocus.github.io/dl/ripple-latest.apk)，Android 8.0 及以上）
+
+手机扫码下载（打开下载页，不要直接对着安装包扫码）：
+
+<a href="https://ripplefocus.github.io/get/"><img src="https://ripplefocus.github.io/get/qr.png" alt="手机扫码下载涟漪" width="180"></a>
+
 - **历史版本与更新说明**：<https://github.com/ripplefocus/ripplefocus.github.io/releases>
 
 ## 主要功能
